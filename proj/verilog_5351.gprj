@@ -1,0 +1,13 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AST-138B" pn="GW5AST-LV138FPG676AES">gw5ast138b-002</Device>
+    <FileList>
+        <File path="src/simple_iic.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/v5351.sv" type="file.verilog" enable="1"/>
+        <File path="src/verilog_5351.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
